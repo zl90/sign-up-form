@@ -13,6 +13,7 @@
     --button-background-color-active: rgb(18, 16, 22);
     --label-text-color: rgb(192, 171, 201);
     --link-color: rgb(170, 17, 175);
+    --form-box-shadow-color: rgb(29, 17, 39);
 }
 
 html {
@@ -232,16 +233,26 @@ section.bottom {
     flex-direction: column;
 }
 
+body {
+    gap: 0;
+}
+
+.content-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 section.top {
     font-size: 1.5rem;
+    width: 60%;
 }
 
 section.middle {
     width: 100%;
     padding-bottom: 16px;
-    border-radius: 3px;
 
-    box-shadow: 0px 5px 5px black;
+    box-shadow: 0px 12px 12px var(--form-box-shadow-color);
     
 }
 
@@ -264,11 +275,11 @@ section.middle > form {
 form > label {
     margin: 0;
     padding: 0;
-    width: 70%;
+    width: 60%;
 }
 
 input {
-    width: 70%;
+    width: 60%;
     background-color: black;
     color: var(--text-color);
     height: 28px;
