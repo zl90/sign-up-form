@@ -200,7 +200,7 @@ input {
     width: clamp(200px, 80%, 350px);
     background-color: black;
     color: var(--text-color);
-    height: 24px;
+    height: 36px;
 }
 
 .bottom {
@@ -277,6 +277,7 @@ form > label {
     margin: 0;
     padding: 0;
     width: 60%;
+    
 }
 
 input {
