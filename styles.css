@@ -143,9 +143,6 @@ section.middle > form {
     color: white;
 }
 
-/* form > input:invalid {
-    border: 1px solid var(--input-border-color-invalid);
-} */
 
 /* "`-._,-'"`-._,-'"`-._,-'"`-._,-' Mobile layout */
 
@@ -222,6 +219,10 @@ section.middle {
     width: 100vw;
 }
 
+}
+
+section.top {
+    width: 100%;
 }
 
 /* "`-._,-'"`-._,-'"`-._,-'"`-._,-' Desktop layout */
