@@ -8,6 +8,9 @@
     --text-color: rgb(249, 240, 255);
     --input-border-color: rgb(59, 24, 80);
     --input-border-color-focused: rgb(170, 17, 175);
+    --input-border-color-invalid: rgb(119, 7, 7);
+    --button-border-color-active: rgb(59, 24, 80);
+    --button-background-color-active: rgb(18, 16, 22);
     --label-text-color: rgb(192, 171, 201);
     --link-color: rgb(170, 17, 175);
 }
@@ -93,6 +96,13 @@ a:any-link {
     font-size: 1.2rem;
 }
 
+.bottom>button:active {
+    
+    border: 2px solid var(--button-border-color-active);
+    background-color: var(--button-background-color-active);
+    color: var(--button-border-color-active);
+}
+
 img.logo {
     height: 80%;
 }
@@ -131,6 +141,10 @@ section.middle > form {
     gap: 16px;
     color: white;
 }
+
+/* form > input:invalid {
+    border: 1px solid var(--input-border-color-invalid);
+} */
 
 /* "`-._,-'"`-._,-'"`-._,-'"`-._,-' Mobile layout */
 
