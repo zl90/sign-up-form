@@ -1,35 +1,43 @@
-# sign-up-form
-My submission for the Sign-up Form assignment on the Odin Project https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form 
+# Sign Up Form
+### A basic Sign-Up Form with Validation
 
-## The problem solving process
+Live Demo:  
+https://zl90.github.io/sign-up-form/
 
-**Overview**
+### Desktop view:
 
-I'll be building a sign-up form for an imaginary service. The goal is to practice the concepts I've been learning in the 'Intermediate HTML and CSS' portion of the Odin Project. I aim to include some implementation of all of the following concepts:
+![Project Screenshot](https://zl90.github.io/sign-up-form/images/project-screenshot.png)
 
-    - HTML Forms.
-    - Form validation.
-    - Overriding default CSS styles.
-    - Advanced selectors.
-    - Positioning.
-        - Absolute positioning.
-    - CSS functions.
-        - calc().
-        - clamp().
-    - Basic responsiveness for mobile browsers.
-    - Custom CSS properties.
+### Mobile view:
 
-**Tech used**
+![Project Screenshot](https://zl90.github.io/sign-up-form/images/mobile-screenshot.png)
+
+This project was created for the [Sign-Up Form assignment](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/sign-up-form) as part of [The Odin Project](https://www.theodinproject.com) curriculum. I met all the assignment objectives and then expanded on it with my own colour scheme and added mobile responsiveness.
+
+This form uses simple HTML validation as per the project requirements. It utilizes the `:valid` and `:invalid` pseudo-classes to provide feedback to the user.
+
+### Provided Assets
+
+* Project Design File: [sign-up-form.png](https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png)
+* Odin Logo: [odin-lined.png](https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png)
+* Font: [Norse Bold](https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf)
+* Image Library: [Unsplash.com](https://unsplash.com/)
+
+### Tech used
 
 - HTML5.
 - CSS3.
 - Meyer CSS reset: https://meyerweb.com/eric/tools/css/reset/
 
-**Planning**
+### Objectives
 
-I'll be applying a dark theme to the page, with purple colour scattered throughout. I've selected an image of a neon cityscape which reflects the colour scheme I'm aiming for.
+1. Build a page based on the Provided Assets.
+2. Implement basic form validation.
 
-I'll be experimenting with responsiveness using media queries, something I've rarely done before. I will sketch out two layouts: one for mobile and one for desktop. The desktop layout should include a background image. The mobile layout will exclude the background image and the form controls will collapse into one column for better readability.
+### Scope Creep
+
+* Added mobile responsiveness.
+* Added my own colour scheme.
 
 
 
